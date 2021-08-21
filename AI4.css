@@ -1,0 +1,42 @@
+ .btn{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+.btn:focus{
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 50px;
+   transition-duration: 3s;    /*0o dis takes 3 secs to execute 
+    transition-property: background-color;*/
+    
+} 
+
+.parent{
+    width: 300px;
+    height: 500px;
+    background-color: blueviolet;
+    border-color: red;
+}
+
+.child{
+    width:200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+  
+
+}
+
+.child:focus{
+    border-radius: 50%;
+    background-color: aqua;
+    transition-duration:4s ;
+    transform: translateY(200px);
+
+}

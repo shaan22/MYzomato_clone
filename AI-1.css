@@ -1,0 +1,73 @@
+h2{
+    background-color:chartreuse;
+    padding: 40px;
+
+}
+
+p{
+    position:sticky;
+   
+    padding:10px;
+    text-transform: capitalize;
+    
+}
+/* about padding :10 20 30 40;
+the first 10 is top,20 is right ,30 is bottom,and 40 is left */
+.relative{
+    position:sticky;
+    left:50px;
+    border:3px aquamarine solid;
+    top:100px;
+    bottom: 100px;
+}
+
+
+.mobile{
+    background-color: black;
+    color: white;
+
+}
+
+.tablet{
+   display: none;
+}
+
+.laptop{
+   display: none;
+}
+
+
+
+@media (min-width:768px){
+.mobile{
+    display:none;
+}
+.tablet{
+    display: block;
+    background-color: yellowgreen;
+    color:green;
+    border: 2px darkgoldenrod solid;
+}
+.laptop{
+    display: none;
+}
+}
+
+@media (min-width:1024px){
+    .mobile{
+        display:none;
+    }
+
+    .tablet{
+        display:none;
+    }
+
+    .laptop{
+        display:block;
+        
+        background-color: blueviolet;
+        color: beige;
+        border:2px balck solid;
+       
+    }
+}

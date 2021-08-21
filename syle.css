@@ -1,0 +1,18 @@
+.lorem{
+   margin: 50px;
+   padding: 150px;
+   background-color: black;
+   color: aliceblue;
+   height: 100px;
+   width: 250px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqM3pIL8NVLmPhRlhukCjU_PZ-mXNat87sZA&usqp=CAU") ;
+   background-repeat:no-repeat ;
+   background-size: 550px 450px;
+   border: 2px solid #e9385a;
+   background-attachment: local, scroll;
+   font-kerning: normal;
+   font-stretch: 50%;
+   font-size: 30px;
+  text-align: start;
+    
+}
